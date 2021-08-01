@@ -1,0 +1,29 @@
+* {
+    red:                         rgba ( 163, 65, 66, 100 % );
+    blue:                        rgba ( 132, 155, 177, 100 % );
+    lightfg:                     rgba ( 161, 140, 139, 100 % );
+    lightbg:                     rgba ( 23, 26, 38, 100 % );
+    foreground:                  rgba ( 233, 217, 211, 100 % );
+    background:                  rgba ( 49, 56, 76, 100 % );
+    background-color:            rgba ( 49, 56, 76, 0 % );
+    separatorcolor:              @foreground;
+    border-color:                @foreground;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @background;
+    selected-active-background:  @blue;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+}

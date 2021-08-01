@@ -1,0 +1,91 @@
+@import "colors.rasi"
+
+window {
+    background-color: @background;
+    border:           0;
+    border-color:     @background;
+    padding:          0;
+}
+mainbox {
+    border:           0;
+    padding:          0;
+}
+message {
+    border:           0px dash 0px 0px ;
+    border-color:     @background;
+    padding:          0px ;
+}
+textbox {
+    text-color:       @lightfg;
+}
+element {
+    border:           0;
+    padding:          0px ;
+}
+element normal.normal {
+    background-color: @background;
+    text-color:       @lightfg;
+}
+element normal.urgent {
+    background-color: @background;
+    text-color:       @lightfg;
+}
+element normal.active {
+    background-color: @background;
+    text-color:       @lightfg;
+}
+element selected.normal {
+    background-color: @background;
+    text-color:       @foreground;
+}
+element selected.urgent {
+    background-color: @background;
+    text-color:       @red;
+}
+element selected.active {
+    background-color: @background;
+    text-color:       @foreground;
+}
+scrollbar {
+    width:            4px ;
+    border:           0;
+    handle-color:     @lightfg;
+    handle-width:     8px ;
+    padding:          0;
+}
+sidebar {
+    border:           2px dash 0px 0px ;
+    border-color:     @separatorcolor;
+}
+button {
+    spacing:          0;
+    text-color:       @lightfg;
+}
+button selected {
+    background-color: @selected-lightbg;
+    text-color:       @selected-lightfg;
+}
+inputbar {
+    spacing:          0px;
+    text-color:       @lightfg;
+    padding:          0px ;
+    children:         [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+case-indicator {
+    spacing:          0;
+    text-color:       @lightfg;
+}
+entry {
+    spacing:          0;
+    text-color:       @lightfg;
+}
+prompt {
+    spacing:          0;
+    text-color:       @lightfg;
+}
+textbox-prompt-colon {
+    expand:           false;
+    str:              ":";
+    margin:           0px 0.3000em 0.0000em 0.0000em ;
+    text-color:       inherit;
+}
