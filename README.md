@@ -28,11 +28,11 @@ I'm super OCD and like my rofi/dunst/polybar to spawn only on one of my monitors
 
 ## Screens:
 
-![reddit-screen](media/reddit-screen.png)
+![reddit-screen](screens/reddit-screens/reddit-screen.png)
 
-![2021-07-28_20-27](media/2021-07-28_20-27.png)
+![2021-07-28_20-27](screens/window-screens/2021-07-28_20-27.png)
 
-![2021-07-28_20-29](media/2021-07-28_20-29.png)
+![2021-07-28_20-29](screens/window-screens/2021-07-28_20-29.png)
 
-![bg-showcase](media/bg-showcase-1.png)
+![bg-showcase](home/Pictures/Backgrounds//bg-showcase-1.png)
 
