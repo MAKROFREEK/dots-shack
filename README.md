@@ -37,7 +37,8 @@ Plus some other major design choices that just look a million times better this 
 
 I didn't bother saving any screenshots of the previous editon because it wasn't recieved very well.
 
-## Enjoy
+## INSTALLATION GUIDE
+https://github.com/LetsHaveKiddos/installation-guide
 
 ## Screens:
 
